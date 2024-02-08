@@ -1,0 +1,10 @@
+x, z, y = map(str, input().split())
+if z == "*":
+    result = int(x) * int(y)
+    print(result)
+elif z == "+":
+    result1 =  int(x) +int(y)
+    print(result1)
+elif z=="-":
+    result2 =  int(x) - int(y)
+    print(result2)
